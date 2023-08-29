@@ -398,6 +398,7 @@
         <xs:choice maxOccurs="unbounded">
             <xs:element name="product" type="empty" minOccurs="0"/>
             <xs:element name="order" type="empty" minOccurs="0"/>
+            <xs:element name="order_line_item" type="empty" minOccurs="0"/>
             <xs:element name="category" type="empty" minOccurs="0"/>
             <xs:element name="customer" type="empty" minOccurs="0"/>
             <xs:element name="customer_address" type="empty" minOccurs="0"/>
